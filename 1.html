@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    write a es6 code that outputs an arry containing names of people older than 18.
+  <script>
+  var family = [{"name":"Jack", "age": 26},
+    {"name":"Jill", "age": 22},
+    {"name":"James", "age": 5 },
+    {"name":"Jenny", "age": 2 }];
+    const arr = [];
+    family.map( (elem,index) => {
+      if( elem.age > 18){
+        arr.push(elem.name);
+      }
+    });
+    console.log(arr);
+  </script>
+</body>
+</html>
