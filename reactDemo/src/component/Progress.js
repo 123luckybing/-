@@ -5,7 +5,7 @@ class Progress extends Component {
     super();
     this.onChange = this.onChange.bind(this);
     this.state = {
-      voice: '1',
+      voice: '10',
     }
   }
   onChange(e) {

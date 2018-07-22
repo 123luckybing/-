@@ -6,6 +6,8 @@ import Password from './component/Password';
 import HeadPortrait from './component/HeadPortrait'
 import Padding from './component/Padding';
 import Progress from './component/Progress';
+import TimeOut from './component/TimeOut';
+import StarScore from './component/StarScore';
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,8 @@ class App extends Component {
             <Route path='/headPortrait' component={HeadPortrait}/>
             <Route path='/Padding' component={Padding}/>
             <Route path='/Progress' component={Progress}/>
+            <Route path='/timeOut' component={TimeOut}/>
+            <Route path='/StarScore' component={StarScore}/>
           </div>
         </Router>
       </div>
