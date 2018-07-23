@@ -1,0 +1,17 @@
+.item {
+  list-style: none;
+  width: 23px;
+  height: 23px;
+  float: left;
+  margin-left: 2px;
+  background:url(../Img/star.png) no-repeat;
+}
+
+.selected {
+  list-style: none;
+  width: 23px;
+  height: 23px;
+  float: left;
+  margin-left: 2px;
+  background:url(../Img/star.png) 0 -25px no-repeat;
+}
