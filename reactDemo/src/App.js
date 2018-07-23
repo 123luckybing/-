@@ -8,6 +8,9 @@ import Padding from './component/Padding';
 import Progress from './component/Progress';
 import TimeOut from './component/TimeOut';
 import StarScore from './component/StarScore';
+import DivClick from './component/DivClick';
+import State from './component/State';
+import PasswordResetSuccess from './component/PasswordResetSuccess';
 class App extends Component {
   render() {
     return (
@@ -15,13 +18,16 @@ class App extends Component {
         <Router>
           <div>
             {/* 有exact精准定位，跳新页面 */}
-            <Route exact path='/' component={Home} />
-            <Route path='/password' component={Password} />
+            <Route exact path='/' component={Home}/>
+            <Route path='/password' component={Password}/>
             <Route path='/headPortrait' component={HeadPortrait}/>
             <Route path='/Padding' component={Padding}/>
             <Route path='/Progress' component={Progress}/>
             <Route path='/timeOut' component={TimeOut}/>
             <Route path='/StarScore' component={StarScore}/>
+            <Route path='/PasswordResetSuccess' component={PasswordResetSuccess}/>
+            <Route path='/DivClick' component={DivClick}/>
+            <Route path='/State' component={State}/>
           </div>
         </Router>
       </div>

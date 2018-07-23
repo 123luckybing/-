@@ -12,6 +12,9 @@ class Home extends Component {
           <li><Link to='/Progress'>进度条</Link></li>
           <li><Link to='/TimeOut'>倒计时</Link></li>
           <li><Link to='/StarScore'>星级评分系统</Link></li>
+          <li><Link to='/PasswordResetSuccess'>密码重置成功倒计时</Link></li>
+          <li><Link to='/DivClick'>div不可点击return false</Link></li>
+          <li><Link to='/State'>State</Link></li>
         </ul>
       </div>
     );
