@@ -11,6 +11,7 @@ import StarScore from './component/StarScore';
 import DivClick from './component/DivClick';
 import State from './component/State';
 import PasswordResetSuccess from './component/PasswordResetSuccess';
+import MusicPlay from './component/MusicPlay/index';
 class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path='/PasswordResetSuccess' component={PasswordResetSuccess}/>
             <Route path='/DivClick' component={DivClick}/>
             <Route path='/State' component={State}/>
+            <Route path='/MusicPlay' component={MusicPlay}/>
           </div>
         </Router>
       </div>
