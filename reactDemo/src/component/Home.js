@@ -16,6 +16,7 @@ class Home extends Component {
           <li><Link to='/DivClick'>div不可点击return false</Link></li>
           <li><Link to='/State'>State异步</Link></li>
           <li><Link to='/MusicPlay'>react音乐播放器</Link></li>
+          <li><Link to='/ProgressBar'>常见的进度条</Link></li>
         </ul>
       </div>
     );

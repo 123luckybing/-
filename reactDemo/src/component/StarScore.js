@@ -31,7 +31,7 @@ class StarScore extends Component {
     return (
       <div>
         <Link to='/'><button>返回首页</button></Link><br/>
-        <ul className="wrapper">
+        <ul className="Wrapper">
           {starList}
         </ul>
       </div>

@@ -12,6 +12,7 @@ import DivClick from './component/DivClick';
 import State from './component/State';
 import PasswordResetSuccess from './component/PasswordResetSuccess';
 import MusicPlay from './component/MusicPlay/index';
+import ProgressBar from './component/ProgressBar';
 class App extends Component {
   render() {
     return (
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path='/DivClick' component={DivClick}/>
             <Route path='/State' component={State}/>
             <Route path='/MusicPlay' component={MusicPlay}/>
+            <Route path='/ProgressBar' component={ProgressBar}/>
           </div>
         </Router>
       </div>
