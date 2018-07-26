@@ -13,6 +13,7 @@ import State from './component/State';
 import PasswordResetSuccess from './component/PasswordResetSuccess';
 import MusicPlay from './component/MusicPlay/index';
 import ProgressBar from './component/ProgressBar';
+import Circle from './component/Circle';
 class App extends Component {
   render() {
     return (
@@ -32,6 +33,7 @@ class App extends Component {
             <Route path='/State' component={State}/>
             <Route path='/MusicPlay' component={MusicPlay}/>
             <Route path='/ProgressBar' component={ProgressBar}/>
+            <Route path='/Circle' component={Circle} />
           </div>
         </Router>
       </div>
