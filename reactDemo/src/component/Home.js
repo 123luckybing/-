@@ -18,6 +18,8 @@ class Home extends Component {
           <li><Link to='/MusicPlay'>react音乐播放器</Link></li>
           <li><Link to='/ProgressBar'>常见的进度条</Link></li>
           <li><Link to='/Circle'>环形进度条</Link></li>
+          <li><Link to='/UpDown'>点击上移下移</Link></li>
+          <li><Link to='/Renren'>人人网评论转发点赞</Link></li>
         </ul>
       </div>
     );

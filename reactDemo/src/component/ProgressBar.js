@@ -127,7 +127,8 @@ class ProgressBar extends Component {
                   display: `${loadingThree}`
                 }}
                 >
-                <div className='circle-progress'>{range}%</div>
+                <div className='circle-progress'></div>
+                <div className='range'>{range}%</div>
               </div>
               <img
                 onLoad={this.loadingSuccess}

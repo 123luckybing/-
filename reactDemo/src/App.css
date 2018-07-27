@@ -134,9 +134,28 @@
   transform: translate(-50%,-50%);
   width: 75px;
   height: 75px;
-  border: 1px solid #ccc;
+  box-shadow: 0 3px greenyellow;
   border-radius: 50%;
   color: #ccc;
   text-align: center;
   line-height: 75px;
+  animation: baifen 1s infinite;
+}
+
+.range {
+  position: absolute;
+  top: 68%;
+  color: #ccc;
+  width: 20px;
+  height: 20px;
+  left: 57%;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes baifen {
+  0% {
+    transform: rotate(0deg);
+  } 100% {
+    transform: rotate(360deg);
+  }
 }

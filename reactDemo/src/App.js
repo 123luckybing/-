@@ -14,6 +14,8 @@ import PasswordResetSuccess from './component/PasswordResetSuccess';
 import MusicPlay from './component/MusicPlay/index';
 import ProgressBar from './component/ProgressBar';
 import Circle from './component/Circle';
+import UpDown from './component/UpDown';
+import Renren from './component/Renren';
 class App extends Component {
   render() {
     return (
@@ -34,6 +36,8 @@ class App extends Component {
             <Route path='/MusicPlay' component={MusicPlay}/>
             <Route path='/ProgressBar' component={ProgressBar}/>
             <Route path='/Circle' component={Circle} />
+            <Route path='/UpDown' component={UpDown} />
+            <Route path='/Renren' component={Renren} />
           </div>
         </Router>
       </div>
