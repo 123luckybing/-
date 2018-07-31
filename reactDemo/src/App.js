@@ -15,7 +15,9 @@ import MusicPlay from './component/MusicPlay/index';
 import ProgressBar from './component/ProgressBar';
 import Circle from './component/Circle';
 import UpDown from './component/UpDown';
+import Window from './component/Window';
 import Renren from './component/Renren';
+import Copy from './component/Copy';
 class App extends Component {
   render() {
     return (
@@ -38,6 +40,8 @@ class App extends Component {
             <Route path='/Circle' component={Circle} />
             <Route path='/UpDown' component={UpDown} />
             <Route path='/Renren' component={Renren} />
+            <Route path='/Window' component={Window} />
+            <Route path='/Copy' component={Copy} />
           </div>
         </Router>
       </div>

@@ -20,6 +20,8 @@ class Home extends Component {
           <li><Link to='/Circle'>环形进度条</Link></li>
           <li><Link to='/UpDown'>点击上移下移</Link></li>
           <li><Link to='/Renren'>人人网评论转发点赞</Link></li>
+          <li><Link to='/Window'>location.href</Link></li>
+          <li><Link to='/Copy'>一键复制</Link></li>
         </ul>
       </div>
     );

@@ -5,7 +5,6 @@ class Renren extends Component {
     return (
       <div>
         <Link to='/'><button>返回主页</button></Link><br/>
-        
       </div>
     );
   }
