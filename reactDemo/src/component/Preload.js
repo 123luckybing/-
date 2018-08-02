@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import '../css/sanjiao.css';
-class Renren extends Component {
+class Preload extends Component {
   render() {
     return (
       <div>
@@ -11,4 +10,4 @@ class Renren extends Component {
     );
   }
 }
-export default Renren;
+export default Preload;

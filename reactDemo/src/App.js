@@ -18,6 +18,9 @@ import UpDown from './component/UpDown';
 import Window from './component/Window';
 import Renren from './component/Renren';
 import Copy from './component/Copy';
+import Marquee from './component/Marquee';
+import Preload from './component/Preload';
+import Debugger from './component/Debugger';
 class App extends Component {
   render() {
     return (
@@ -42,6 +45,9 @@ class App extends Component {
             <Route path='/Renren' component={Renren} />
             <Route path='/Window' component={Window} />
             <Route path='/Copy' component={Copy} />
+            <Route path='/Preload' component={Preload} />
+            <Route path='/Marquee' component={Marquee} />
+            <Route path='/Debugger' component={Debugger} />
           </div>
         </Router>
       </div>

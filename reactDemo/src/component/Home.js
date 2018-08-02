@@ -22,6 +22,9 @@ class Home extends Component {
           <li><Link to='/Renren'>人人网评论转发点赞</Link></li>
           <li><Link to='/Window'>location.href</Link></li>
           <li><Link to='/Copy'>一键复制</Link></li>
+          <li><Link to='/Preload'>图片预加载</Link></li>
+          <li><Link to='/Marquee'>文字滚动效果</Link></li>
+          <li><Link to='/Debugger'>Debugger设置断点</Link></li>
         </ul>
       </div>
     );
