@@ -1,0 +1,41 @@
+.content img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  -webkit-box-flex: 4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ad-title {
+  width: 10px;
+  -webkit-box-flex: 1;
+  margin-top: 25px;
+}
+
+.hide {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.first-wrapper {
+  border: 1px solid black;
+  width: 120px;
+  height: 100px;
+  display: -webkit-box;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  transition: right 1s linear;
+}
+
+.zhou {
+  height: 0;
+  transition: height 2s linear;
+}
+ 

@@ -21,6 +21,8 @@ import Copy from './component/Copy';
 import Marquee from './component/Marquee';
 import Preload from './component/Preload';
 import Debugger from './component/Debugger';
+import Flex from './component/Flex';
+import Ad from './component/Ad';
 class App extends Component {
   render() {
     return (
@@ -48,6 +50,8 @@ class App extends Component {
             <Route path='/Preload' component={Preload} />
             <Route path='/Marquee' component={Marquee} />
             <Route path='/Debugger' component={Debugger} />
+            <Route path='/Flex' component={Flex} />
+            <Route path='/Ad' component={Ad}/>
           </div>
         </Router>
       </div>

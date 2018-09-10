@@ -25,6 +25,8 @@ class Home extends Component {
           <li><Link to='/Preload'>图片预加载</Link></li>
           <li><Link to='/Marquee'>文字滚动效果</Link></li>
           <li><Link to='/Debugger'>Debugger设置断点</Link></li>
+          <li><Link to='/Flex'>Flex布局</Link></li>
+          <li><Link to='/Ad'>网页广告</Link></li>
         </ul>
       </div>
     );
