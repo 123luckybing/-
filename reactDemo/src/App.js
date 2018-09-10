@@ -23,6 +23,7 @@ import Preload from './component/Preload';
 import Debugger from './component/Debugger';
 import Flex from './component/Flex';
 import Ad from './component/Ad';
+import ReactOne from './component/React';
 class App extends Component {
   render() {
     return (
@@ -52,6 +53,7 @@ class App extends Component {
             <Route path='/Debugger' component={Debugger} />
             <Route path='/Flex' component={Flex} />
             <Route path='/Ad' component={Ad}/>
+            <Route path='/ReactOne' component={ReactOne}/>
           </div>
         </Router>
       </div>

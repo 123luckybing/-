@@ -27,6 +27,8 @@ class Home extends Component {
           <li><Link to='/Debugger'>Debugger设置断点</Link></li>
           <li><Link to='/Flex'>Flex布局</Link></li>
           <li><Link to='/Ad'>网页广告</Link></li>
+          <h2>React开发实战</h2>
+          <li><Link to='/ReactOne'>react开发实战整理</Link></li>
         </ul>
       </div>
     );
