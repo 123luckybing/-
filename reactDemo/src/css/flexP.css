@@ -58,3 +58,24 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
+
+.top {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column-center {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-right {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}

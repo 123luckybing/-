@@ -36,6 +36,25 @@ class Renren extends Component {
           <div className='item-box'></div>
         </div>
       </div>
+      （二）两个骰子位置
+      <div className="total">
+      <div className="one-wrapper top">
+        <div className='item-box'></div>
+        <div className='item-box'></div>
+      </div>
+      <div className="one-wrapper column">
+        <div className='item-box'></div>
+        <div className='item-box'></div>
+      </div>
+      <div className="one-wrapper column-center">
+        <div className='item-box'></div>
+        <div className='item-box'></div>
+      </div>
+      <div className="one-wrapper column-right">
+        <div className='item-box'></div>
+        <div className='item-box'></div>
+      </div>
+      </div>
       </div>
     );
   }
