@@ -1,0 +1,60 @@
+.App {
+  width: 100%;
+}
+
+.one-wrapper {
+  display: flex;
+  margin: 0 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid rgba(13,233,32,0.7);
+}
+
+.item-box {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.total {
+  display: flex;
+}
+
+.top-center {
+  justify-content: center;
+}
+
+.top-right {
+  justify-content: flex-end;
+}
+
+.center-left {
+  align-items: center;
+}
+
+.center-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.center-right {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bottom-left {
+  align-items: flex-end;
+}
+
+.bottom-center {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bottom-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
