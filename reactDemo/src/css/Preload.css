@@ -1,0 +1,41 @@
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  height: 1000px;
+  border: 1px solid black;
+}
+
+.tip {
+  /* 先覆盖在上面 */
+  margin: auto;
+  width: 300px;
+  left: 0;
+  right: 0;
+/* 固定定位 */
+  position: fixed;
+  bottom: 110px;
+}
+
+.tip-content {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  width: 20px;
+  border: 1px solid black;
+  background: orange;
+}
+
+/* .kr-assit {
+  position: fixed;
+  bottom: 20px;
+  width: 1030px;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  .assit-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    width: 20px;
+    background: #fff; */

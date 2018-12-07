@@ -24,6 +24,10 @@ import Debugger from './component/Debugger';
 import Flex from './component/Flex';
 import Ad from './component/Ad';
 import ReactOne from './component/React';
+import List from './component/List';
+import Img from './component/Img';
+import Callback from './component/Callback';
+
 class App extends Component {
   render() {
     return (
@@ -54,6 +58,9 @@ class App extends Component {
             <Route path='/Flex' component={Flex} />
             <Route path='/Ad' component={Ad}/>
             <Route path='/ReactOne' component={ReactOne}/>
+            <Route path='/List' component={List}/>
+            <Route path='/Img' component={Img}/>
+            <Route path='/Callback' component={Callback}/>
           </div>
         </Router>
       </div>

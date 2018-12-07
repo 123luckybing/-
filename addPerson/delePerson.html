@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const guests = [
+{"index":1,"name":"李小加","company":"香港交易所","position":"集团行政总裁"},
+{"index":2,"name":"陆奇","company":"百度集团副董事长&YC中国CEO","position":""},
+{"index":3,"name":"靖捷","company":"阿里天猫","position":"总裁"},
+{"index":4,"name":"高红冰","company":"阿里巴巴集团","position":"副总裁"},
+{"index":5,"name":"周受资","company":"小米公司","position":"CFO"},
+{"index":6,"name":"陈少晖","company":"美团点评","position":"CFO"},
+{"index":7,"name":"徐经纬","company":"瑞士信贷(香港)有限公司&亚太区董事总经理","position":""},
+{"index":8,"name":"James Perry","company":"花旗环球金融","position":"董事总经理&科技部门主管"},
+{"index":9,"name":"陈晓东","company":"银泰集团","position":"CEO"},
+{"index":10,"name":"唐家年","company":"家乐福中国区","position":"总裁&CEO"},
+{"index":11,"name":"孙为民","company":"苏宁云商集团","position":"董事长"},
+{"index":12,"name":"高宏达","company":"屈臣氏中国区","position":"行政总裁"},
+{"index":13,"name":"贺志强","company":"联想创投集团","position":"总裁"},
+{"index":14,"name":"邓德隆","company":"特劳特伙伴公司","position":"全球总裁"},
+{"index":15,"name":"韩彦","company":"光速中国","position":"创始合伙人"},
+{"index":16,"name":"徐诗","company":"山行资本","position":"创始合伙人"},
+{"index":17,"name":"杜永波","company":"华兴新经济基金","position":"管理合伙人"},
+{"index":18,"name":"王斌","company":"翊翎资本","position":"董事长"},
+{"index":19,"name":"冯卫东","company":"天图资本","position":"CEO"},
+{"index":20,"name":"朱海鹏","company":"深交所中关村基地","position":"主任"},
+{"index":21,"name":"刘成城","company":"36氪","position":"创始人&董事长"},
+{"index":22,"name":"冯大刚","company":"36氪","position":"总裁"},
+{"index":23,"name":"叶勤康","company":"36氪","position":"合伙人"},
+{"index":24,"name":"赵甜","company":"36氪基金创始合伙人&36氪集团副总裁","position":""},
+{"index":25,"name":"全昌连","company":"36氪副总编&《零售老板内参》总裁","position":""},
+{"index":26,"name":"李锦雯","company":"36氪","position":"机构合作部负责人"},
+{"index":27,"name":"景鲲","company":"百度智能生活事业群组 总经理","position":""},
+{"index":28,"name":"王静波","company":"趣头条","position":"CFO"},
+{"index":29,"name":"侯毅","company":"盒马鲜生","position":"CEO"},
+{"index":30,"name":"张楠","company":"抖音","position":"总经理"},
+{"index":31,"name":"张俊","company":"拍拍贷创始人&联席CEO","position":""},
+{"index":32,"name":"程力","company":"育儿网","position":"联合创始人&CEO"},
+{"index":33,"name":"金星","company":"新氧","position":"创始人&CEO"},
+{"index":34,"name":"纪鹏程","company":"易点租","position":"CEO"},
+{"index":35,"name":"吴明辉","company":"明略数据、秒针系统创始人&董事长","position":""},
+{"index":36,"name":"詹东晖","company":"瑞为技术","position":"CEO"},
+{"index":37,"name":"黄炜","company":"转转","position":"CEO"},
+{"index":38,"name":"杨帆","company":"凡普金科 创始合伙人&爱钱进总裁","position":""},
+{"index":39,"name":"潘雪","company":"CITYBOX开放事业部 总经理","position":""},
+{"index":40,"name":"金宏洲","company":"e签宝","position":"创始人&CEO"},
+{"index":41,"name":"袁文辉","company":"小鱼易连","position":"CEO"},
+{"index":42,"name":"彭超","company":"加推科技","position":"CEO"},
+{"index":43,"name":"冯敏","company":"gaga鲜语","position":"创始人"},
+{"index":44,"name":"李思贤","company":"超盟数据","position":"创始人&CEO"},
+{"index":45,"name":"叶生晅","company":"Whale","position":"创始人&CEO"},
+{"index":46,"name":"宫华泽","company":"麦飞科技","position":"联合创始人&CEO"},
+{"index":47,"name":"王一","company":"智慧油客","position":"创始人&CEO"},
+{"index":48,"name":"邹馨","company":"ZESPEED","position":"CEO"},
+{"index":49,"name":"谢琳斐","company":"KaDa故事","position":"创始人CEO"}
+];
+
+  function delPerson(i) {
+     guests.map((elem) => {
+      if(elem.index == i) {
+         guests.splice(elem.index - 1 ,1);
+      } 
+      return guests;
+    });
+    guests.map((item) => {
+      if(item.index > i) {
+        item.index = item.index -1;
+      }
+      return guests;
+    });
+    console.log(guests);
+    console.log(JSON.stringify(guests));
+  }
+  delPerson(10); // 传入要删除的index
+  </script>
+</body>
+</html>

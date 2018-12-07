@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const guests = [
+{
+  "index": 1,
+  "name": "李小加",
+  "company": "香港交易所",
+  "position": "集团行政总"
+},
+{
+  "index": 5,
+  "name": "周受资",
+  "company": "小米公司",
+  "position": "CFO"
+},
+{
+  "index": 6,
+  "name": "陈少晖",
+  "company": "美团点评",
+  "position": "CFO"
+},
+{
+  "index": 2,
+  "name": "陆奇",
+  "company": "百度集团副董事长",
+  "position": "Y Combinator中国CEO"
+},
+{
+  "index": 7,
+  "name": "徐经纬",
+  "company": "瑞士信贷(香港)有限公司",
+  "position": "董事总经理"
+},
+{
+  "index": 23,
+  "name": "景鲲",
+  "company": "百度",
+  "position": "智能生活事业群组总经理"
+},
+{
+  "index": 19,
+  "name": "朱海鹏",
+  "company": "深交所中关村",
+  "position": "基地主任"
+},
+{
+  "index": 20,
+  "name": "刘成城",
+  "company": "36氪",
+  "position": "创始人兼董事长"
+},
+{
+  "index": 21,
+  "name": "冯大刚",
+  "company": "36氪",
+  "position": "总裁"
+},
+{
+  "index": 22,
+  "name": "赵甜",
+  "company": "36氪基金创始合伙人",
+  "position": "36氪集团副总裁"
+},
+{
+  "index": 15,
+  "name": "徐诗",
+  "company": "山行资本",
+  "position": "创始合伙人"
+},
+{
+  "index": 16,
+  "name": "贺志强",
+  "company": "联想创投集团",
+  "position": "总裁"
+},
+{
+  "index": 14,
+  "name": "韩彦",
+  "company": "光速中国",
+  "position": "创始合伙人"
+},
+{
+  "index": 17,
+  "name": "王斌",
+  "company": "翊翎资本",
+  "position": "董事长"
+},
+{
+  "index": 13,
+  "name": "邓德隆",
+  "company": "特劳特伙伴公司",
+  "position": "全球总裁"
+},
+{
+  "index": 3,
+  "name": "靖捷",
+  "company": "阿里",
+  "position": "天猫总裁"
+},
+{
+  "index": 9,
+  "name": "陈晓东",
+  "company": "银泰集团",
+  "position": "CEO"
+},
+{
+  "index": 11,
+  "name": "孙为民",
+  "company": "苏宁云商集团",
+  "position": "董事长"
+},
+{
+  "index": 18,
+  "name": "冯卫东",
+  "company": "天图资本",
+  "position": "CEO"
+},
+{
+  "index": 4,
+  "name": "高红冰",
+  "company": "阿里巴巴",
+  "position": "副总裁"
+},
+{
+  "index": 25,
+  "name": "侯毅",
+  "company": "盒马鲜生",
+  "position": "CEO"
+},
+{
+  "index": 10,
+  "name": "唐家年",
+  "company": "家乐福中国区",
+  "position": "总裁兼CEO"
+},
+{
+  "index": 12,
+  "name": "高宏达",
+  "company": "屈臣氏中国区",
+  "position": "行政总裁"
+},
+{
+  "index": 24,
+  "name": "王静波",
+  "company": "趣头条",
+  "position": "CFO"
+},
+{
+  "index": 26,
+  "name": "张楠",
+  "company": "抖音",
+  "position": "总经理"
+},
+{
+  "index": 27,
+  "name": "张俊",
+  "company": "拍拍贷-创始人",
+  "position": "联席CEO"
+},
+{
+  "index": 28,
+  "name": "黄炜",
+  "company": "转转",
+  "position": "CEO"
+},
+{
+  "index": 29,
+  "name": "金星",
+  "company": "新氧",
+  "position": "创始人&CEO"
+},
+{
+  "index": 30,
+  "name": "李思贤",
+  "company": "超盟数据",
+  "position": "创始人&CEO"
+},
+{
+  "index": 31,
+  "name": "杨帆",
+  "company": "凡普金科创始合伙人",
+  "position": "爱钱进总裁"
+},
+{
+  "index": 8,
+  "name": "James Perry",
+  "company": "花旗环球金融",
+  "position": "董事总经理兼科技部门主管"
+}
+];
+let newArr = guests.sort( (a,b) => {
+  return a.index - b.index;
+});
+console.log(JSON.stringify(newArr));
+  </script>
+</body>
+</html>
